@@ -1,0 +1,13 @@
+# VSCode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# colcon
+build/
+install/
+log/
+
+# .env
+.env

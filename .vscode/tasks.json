@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "/usr/bin/env bash -c 'source ${env:LAUNCH_DEBUG_WORKSPACE}/install/setup.bash && env > .env'",
+      "label": "create_env_file"
+    }
+  ]
+}

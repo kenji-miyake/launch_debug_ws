@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/install/ros2cli/bin/ros2",
+      "args": ["launch", "${env:LAUNCH_DEBUG_LAUNCH}"],
+      "preLaunchTask": "create_env_file",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
